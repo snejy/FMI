@@ -7,7 +7,7 @@ end
 def lucas(n)
   if n <= 1 then 2
   elsif n == 2 then 1
-  else then lucas(n-1) + lucas(n-2)
+  else lucas(n-1) + lucas(n-2)
   end
 end
 
